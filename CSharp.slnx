@@ -1,0 +1,24 @@
+<Solution>
+  <Project Path="01_Algoritma/01_Algoritma.csproj" />
+  <Project Path="02_Degiskenler_VeriTipleri/02_Degiskenler_VeriTipleri.csproj" Id="13cb2398-2124-4a80-b6e5-246473d7dd9c" />
+  <Project Path="03_TurDonusumleri/03_TurDonusumleri.csproj" Id="bed6a4e1-6e5b-4e82-ad35-c7fd54169061" />
+  <Project Path="04_Operatorler/04_Operatorler.csproj" Id="132452d5-1f38-4f16-9271-9ebad7a5eed5" />
+  <Project Path="05_Karar_Yapilari/05_Karar_Yapilari.csproj" Id="5de196f4-c4f6-4ec1-833e-7e88d1f93fe6" />
+  <Project Path="06_Bankamatik/06_Bankamatik.csproj" Id="52cd4ee9-ac6f-4e39-8371-e3b8d7ddef14" />
+  <Project Path="07_DateTime/07_DateTime.csproj" Id="a39409ed-5b11-4137-b00a-d81a77026217" />
+  <Project Path="08_StringMethods/08_StringMethods.csproj" Id="52fdf7d3-eb1c-4c9d-a9a9-47a37cbbfbd1" />
+  <Project Path="09_Donguler/09_Donguler.csproj" Id="ef7ea7dd-cf14-4504-9819-464b84785d00" />
+  <Project Path="10_Arrays/10_Arrays.csproj" Id="3636a68e-94ed-457b-afad-baa4ecdec6ed" />
+  <Project Path="10_Otomat_Projesi/10_Otomat_Projesi.csproj" Id="b533f3eb-609e-4a06-bc6f-3504850e8876" />
+  <Project Path="11_Try_Catch/11_Try_Catch.csproj" Id="f94275e0-13de-486a-bc5e-a5ccb51de2b1" />
+  <Project Path="12_ArrayList/12_ArrayList.csproj" Id="660ad981-f93c-4469-b00b-83b4c8282d36" />
+  <Project Path="12_ManavOtomasyonu/12_ManavOtomasyonu.csproj" Id="16215696-b19a-466e-b8c2-b19949e21644" />
+  <Project Path="13_Metotlar_1/13_Metotlar_1.csproj" Id="8d1e816e-5c32-47b6-8f67-50906e494056" />
+  <Project Path="13_Metotlar_2/13_Metotlar_2.csproj" Id="fcbf3355-51fd-4d4e-8fe4-56e7b844f8f9" />
+  <Project Path="13_Metotlar_3/13_Metotlar_3.csproj" Id="863fffb0-cd71-47e8-b808-f76f97829ce7" />
+  <Project Path="13_Metotlar_4/13_Metotlar_4.csproj" Id="1a3ee29d-e50a-45d2-9fa3-560de73bd307" />
+  <Project Path="13_Metotlar_5/13_Metotlar_5.csproj" Id="8450753f-c160-4a22-88e7-0c8985574a6e" />
+  <Project Path="13_Metotlar_6/13_Metotlar_6.csproj" Id="934c4232-e7be-4f9b-9ed7-a6d58348ea4c" />
+  <Project Path="13_Metotlar_7/13_Metotlar_7.csproj" Id="ec29dd1d-6a9e-4a6e-bf11-b28a252ebef8" />
+  <Project Path="13_Metotlar_8/13_Metotlar_8.csproj" Id="9d3ab890-2110-4703-8af3-da39647917d4" />
+</Solution>
