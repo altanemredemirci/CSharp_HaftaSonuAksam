@@ -32,8 +32,13 @@ namespace _12_ArrayList
             //    Console.WriteLine(arrayList[i]);
             //}
 
+            //foreach (var item in arrayList)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
             #region Kullanıcıdan 5 isim alarak bir arraylist e ekleyiniz ve ekrana yazdırınız
-            //ArrayList isimler = new ArrayList();
+            ArrayList isimler = new ArrayList();
 
             //for (int i = 0; i < 5; i++)
             //{
@@ -43,10 +48,10 @@ namespace _12_ArrayList
 
             //Console.WriteLine("Girilen İsimler:");
 
-            ////for (int i = 0; i < isimler.Count; i++)
-            ////{
-            ////    Console.WriteLine(isimler[i]);
-            ////}
+            //for (int i = 0; i < isimler.Count; i++)
+            //{
+            //    Console.WriteLine(isimler[i]);
+            //}
 
             //foreach (string item in isimler)
             //{
@@ -72,7 +77,7 @@ namespace _12_ArrayList
 
 
             // **** COUNT ve CAPACITY
-            //ArrayList sehirler = new ArrayList() { "İstanbul", "Ankara", "Çanakkale","Adana","Kars","Hakkari","Balıkesir","Sivas","Tokat" };
+            //ArrayList sehirler = new ArrayList() { "İstanbul", "Ankara", "Çanakkale", "Adana", "Kars", "Hakkari", "Balıkesir", "Sivas", "Tokat" };
 
             //Console.WriteLine(sehirler.Capacity);
             //Console.WriteLine(sehirler.Count);
@@ -96,8 +101,8 @@ namespace _12_ArrayList
             //}
             //Console.WriteLine("Aile bireyleri:");
             //for (int i = 0; i < aileBireyleri.Count; i++)
-            //{ 
-            //    Console.WriteLine(aileBireyleri[i]); 
+            //{
+            //    Console.WriteLine(aileBireyleri[i]);
             //}
             //foreach (string ad in aileBireyleri)
             //{
@@ -237,34 +242,34 @@ namespace _12_ArrayList
             //Console.WriteLine("Toplam = " + toplam);
             #endregion
 
-            ArrayList sayilar = new ArrayList();
+            //ArrayList sayilar = new ArrayList();
 
-            while (true)
-            {
-                Console.WriteLine("Sayı giriniz:");
-                string deger = Console.ReadLine();
+            //while (true)
+            //{
+            //    Console.WriteLine("Sayı giriniz:");
+            //    string deger = Console.ReadLine();
 
-                if(int.TryParse(deger,out int sayi))
-                {
-                    sayilar.Add(sayi);
-                }
-                else
-                {
-                    if (deger == "çık")
-                    {
-                        int toplam = 0;
-                        foreach (int item in sayilar)
-                        {
-                            toplam += item;
-                        }
-                        Console.WriteLine("Sonuç:"+toplam);
-                    }
-                    else
-                    {
-                        Console.WriteLine("Sayıyı rakam olarak giriniz");
-                    }
-                }
-            }     
+            //    if(int.TryParse(deger,out int sayi))
+            //    {
+            //        sayilar.Add(sayi);
+            //    }
+            //    else
+            //    {
+            //        if (deger == "çık")
+            //        {
+            //            int toplam = 0;
+            //            foreach (int item in sayilar)
+            //            {
+            //                toplam += item;
+            //            }
+            //            Console.WriteLine("Sonuç:"+toplam);
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("Sayıyı rakam olarak giriniz");
+            //        }
+            //    }
+            //}     
 
             #endregion
 

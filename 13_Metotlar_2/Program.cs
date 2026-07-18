@@ -7,7 +7,7 @@
             //******* DEĞER DÖNDÜRMEYEN METOT ********
             //void keyword(anahtar kelime) değer dönmeyeceği tanımlar
 
-            //Toplama();
+            Toplama();
 
             //Toplama2(15,25);
 

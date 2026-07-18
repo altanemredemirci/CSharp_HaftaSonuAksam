@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+
             /*
              * ***** METOTLAR *****
              * Metotlar () ile tanımlanır.Metotlar daha sonra kullanılmak üzere tanımlanan kod bloklarına denir. Metotlar belirli bir işlem kod bloğunu braındırırlar ve çağrılmadıkları sürece ÇALIŞMAZLAR.
@@ -16,19 +17,19 @@
              * Metotlar değer döndüren ve değer döndürmeyen olmak üzere 2'ye ayrılırlar.
              * 1-Değer Döndürmeyen Metot: Metot çalıştığında işlem sonucunu çağrıldığı yere geri taşımaz.
              */
-            //Yaz();
+            Yaz();
             //Console.WriteLine("d");
             //Console.WriteLine("ddss");
             //Console.WriteLine("ddsssdsd");
             //Console.WriteLine("ddsssdsdsdsd");
-            //Yaz();
+            Yaz();
             //Console.WriteLine("sdsd");
             //Console.WriteLine("sdsd");
             //Console.WriteLine("sdsd");
             //Console.WriteLine("sdsd");
 
-            //string isim = "Sercan";
-            //Yaz2(isim);
+            string isim = "Sercan";
+            Yaz2(isim);
 
             //string ad = "Selim";
             //Yaz2(ad);

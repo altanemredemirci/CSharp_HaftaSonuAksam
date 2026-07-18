@@ -12,11 +12,10 @@
             public:Solution içerisinde erişilebilir.
             internal:Sadece kendi projesi içerisinde erişilebilir.
             private:Sadece kendi class içerisinde erişilebilir.
+            protected:
              */
 
-            #region Kullanıcıdan alınacak 2 ürün fiyatından pahalı olana %30 indirim uygulayan metot ve 3.ürün almak isterse 3.ürüne %50 indirim uygulayan metotları yazınız
-
-
+        #region Kullanıcıdan alınacak 2 ürün fiyatından pahalı olana %30 indirim uygulayan metot ve 3.ürün almak isterse 3.ürüne %50 indirim uygulayan metotları yazınız
 
             Indirim();
 

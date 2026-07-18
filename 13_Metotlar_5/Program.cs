@@ -12,7 +12,7 @@
             r.Next();
 
             //Metot static değilse classdan bir nesne oluşturarak erişebiliriz.
-            DortIslem d = new DortIslem();
+            DortIslem d = new DortIslem(); //Instance - Örneklem
             d.Yaz2();
 
 

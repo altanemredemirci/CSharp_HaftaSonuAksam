@@ -24,7 +24,7 @@
             //**Dolu Dizi Tanımı
             //string[] sehirler = { "İstanbul", "Kars", "Adıyaman", "İzmir" };
 
-            //**Dizideki Elemanı Index Üzerinden Ekrana Yazdırma
+            ////**Dizideki Elemanı Index Üzerinden Ekrana Yazdırma
             //Console.WriteLine(sehirler[2]);
             //Console.WriteLine(sehirler[6]);
 
@@ -88,6 +88,8 @@
             //int[] sayilar = { 11, 22, 33, 44, 55, 66, 77, 88, 99, 66, 44 };
 
             #region CLEAR()
+
+            //Array.Clear(sayilar); //Bütün değerler silinir
 
             //Dizi içindeki değerleri siler
             //Array.Clear(sayilar,2,3); //2.indexten başla 3 değeri sil.
@@ -183,7 +185,7 @@
 
             //string[] sehirler = { "Zonguldak", "Adana", "İstanbul", "Yozgat", "Kars", "Balıkesir", "Çanakkale", "Şırnak", "Kırklareli" };
 
-            //Array.Sort(sehirler);
+            ////Array.Sort(sehirler);
             //Array.Reverse(sehirler);
 
             //for (int i = 0; i < sehirler.Length; i++)
@@ -204,7 +206,7 @@
             //rakamlar[1] = 12;
             //rakamlar[2] = 13;
 
-            //Array.Resize(ref rakamlar, 10);
+            //Array.Resize(ref rakamlar, 10); //Tanımlı diziyi yeniden boyutlandırır.
 
             //rakamlar[3] = 14;
 
@@ -226,7 +228,7 @@
             #endregion
 
             #region Bir dizinin eleman sayısı 10 ile 20 arasında rastgele bir değer olarak atansın
-            //Bu dizinin elemanlarını da sistem 0,100 aralığında ratgele olarak atasın.
+            //Bu dizinin elemanlarını da sistem 0,100 aralığında rastgele olarak atasın.
             //Otomatik oluşturulan bu dizinin eleman sayısını ve elemanlarını kullanıcıya gösteriniz.
             //Aynı sayılar tekrar atanmasın
             //Dizinin en büyük ve en küçük değerilerini kullanıcıya gösteriniz. 
@@ -255,7 +257,7 @@
 
             //Random r = new Random();
 
-            //int[] dizi = new int[r.Next(10, 20)]; //10
+            //int[] dizi = new int[r.Next(10, 20)]; //15
 
             //int i = 0;
             //while (i < dizi.Length) //i:0,1,2,3,4,5,6,7,8,9
@@ -275,8 +277,8 @@
 
             //Array.Sort(dizi); //küçükten büyüğe 
 
-            //Console.WriteLine("En küçük değer:"+dizi[0]);
-            //Console.WriteLine("En büyük değer:"+dizi[dizi.Length-1]);
+            //Console.WriteLine("En küçük değer:" + dizi[0]);
+            //Console.WriteLine("En büyük değer:" + dizi[dizi.Length - 1]);
 
 
             #endregion
@@ -300,8 +302,8 @@
             //    }
             //}
 
-            //Console.WriteLine("En Küçük Sayı:"+enkucuk);
-            //Console.WriteLine("En Büyük Sayı:"+enbuyuk);
+            //Console.WriteLine("En Küçük Sayı:" + enkucuk);
+            //Console.WriteLine("En Büyük Sayı:" + enbuyuk);
 
             #endregion
 
