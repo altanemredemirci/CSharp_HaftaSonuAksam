@@ -21,7 +21,7 @@ namespace _14_List
 
             //Console.WriteLine(isimler[1]);
 
-            foreach (string s in isimler) 
+            foreach (string s in isimler)
             {
                 Console.WriteLine(s);
             }

@@ -27,4 +27,8 @@
   <Project Path="13_Metotlar_8/13_Metotlar_8.csproj" Id="9d3ab890-2110-4703-8af3-da39647917d4" />
   <Project Path="13_Metotlar_9/13_Metotlar_9.csproj" Id="8f24c578-a846-4b8f-8662-234c45ae987c" />
   <Project Path="14_List/14_List.csproj" Id="3e3ee0e3-b4b7-47eb-8c6e-1e33111d63d3" />
+  <Project Path="15_Class_1/15_Class_1.csproj" Id="3a80f707-e87b-41a1-82d3-0a67d839df3a" />
+  <Project Path="15_Class_2/15_Class_2.csproj" Id="9980327e-394c-48a1-81af-7410a3b40ed1" />
+  <Project Path="15_Class_3/15_Class_3.csproj" Id="f500b82c-5942-457d-87a6-1397cc9e24af" />
+  <Project Path="15_Class_4_OtomatMakinesi/15_Class_4_OtomatMakinesi.csproj" Id="02e7bcc6-5195-4877-ad32-1d5553149203" />
 </Solution>
