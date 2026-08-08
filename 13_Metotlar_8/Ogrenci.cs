@@ -11,7 +11,7 @@ namespace _13_Metotlar_8
             Console.WriteLine("Okudum");
         }
 
-        static void Yaz()
+        internal static void Yaz() //bir erişim belirteci verilmezse default private alır.
         {
             Oku();
         }

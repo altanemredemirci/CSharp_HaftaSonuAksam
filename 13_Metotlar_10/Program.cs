@@ -10,8 +10,8 @@
 
 
 
-            //int sonuc = Toplam();
-            //Console.WriteLine(sonuc);
+            int sonuc = Toplam();
+            Console.WriteLine(sonuc);
 
             //Kullanıcıdan alınan 2 ürün fiyatından ucuz olana %30 indirim uygulayın ve 3. ürün ister misiniz diye soralım ve evet cevabımı alırsak 3.rün fiyatı alan ve %50 indirim uygulayan ve sonucu geri döndüren metodu yazınız.
 

@@ -6,7 +6,7 @@
         {
             //****** METOT İMZASI ******
             //Aynı isimde tanımlanan metotları birbirinden ayıran yapıya metot imzası denir.
-            //Metot imzası parametre sayısı ve parametrenin veri tipi ile tanımlanır.
+            //Metot imzası parametre sayısı veya parametrenin veri tipi ile tanımlanır.
 
             Toplama();
             Toplama(11,22);
@@ -15,6 +15,9 @@
             Toplama(11, 22, 33);
 
             //Metodun aynı isimle tanımlanması ve metot imzasıyla farklı olmasına metodun aşırı yüklenmesi(overloading) denir.
+
+            Toplama();
+
 
         }
 

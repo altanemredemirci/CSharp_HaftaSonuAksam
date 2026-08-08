@@ -15,6 +15,8 @@
             protected:
              */
 
+            Ogrenci.Yaz();
+
         #region Kullanıcıdan alınacak 2 ürün fiyatından pahalı olana %30 indirim uygulayan metot ve 3.ürün almak isterse 3.ürüne %50 indirim uygulayan metotları yazınız
 
             Indirim();
@@ -59,7 +61,7 @@
 
             fiyat3 = fiyat3 / 2;
 
-            Console.WriteLine("Toplam Ödemeniz:" + (fiyat1 + fiyat2+fiyat3));
+            Console.WriteLine("Toplam Ödemeniz:" + (fiyat1 + fiyat2 + fiyat3));
         }
     }
 }

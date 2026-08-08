@@ -29,12 +29,12 @@
             //Yaz();
 
 
-            //int s = 5;
+            //int s;
             //SayiDegistir(out s);
             //Console.WriteLine(s);
 
 
-            //int s =5;
+            //int s = 5;
             //SayiDegistir(ref s);
             //Console.WriteLine(s);
 
@@ -42,16 +42,16 @@
 
 
             SayiTopla(1, 2, 3);
-            SayiTopla(1, 2, 3,4,5);
-            SayiTopla(1, 2, 3,4,5,6,7,8,9);
+            SayiTopla(1, 2, 3, 4, 5);
+            SayiTopla(1, 2, 3, 4, 5, 6, 7, 8, 9);
 
 
         }
 
-        //static void Yaz(string metin="Uras Demirci")
-        //{
-        //    Console.WriteLine(metin);
-        //}
+        static void Yaz(string metin = "Uras Demirci")
+        {
+            Console.WriteLine(metin);
+        }
 
         //static void SayiDegistir(out int sayi)
         //{

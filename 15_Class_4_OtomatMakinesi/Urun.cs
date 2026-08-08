@@ -7,7 +7,7 @@ namespace _15_Class_4_OtomatMakinesi
     internal class Urun
     {
         public int No;
-        public string Name;
+        public string Ad;
         public double Fiyat;
         public int Stok;
 
@@ -15,7 +15,7 @@ namespace _15_Class_4_OtomatMakinesi
         {
             foreach (Urun item in uruns)
             {
-                Console.WriteLine(item.No+"-"+item.Name+":"+item.Fiyat);
+                Console.WriteLine(item.No+"-"+item.Ad + ":"+item.Fiyat);
             }
         }
 
@@ -33,11 +33,6 @@ namespace _15_Class_4_OtomatMakinesi
             }
             else
             {
-                if (secilenUrun.Stok > 0)
-                {
-
-                }
-
                 double bakiye = 0;
                 while (true)
                 {
@@ -78,7 +73,7 @@ namespace _15_Class_4_OtomatMakinesi
             urun.No = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Ürün Adı:");
-            urun.Name = Console.ReadLine();
+            urun.Ad = Console.ReadLine();
 
             Console.WriteLine("Ürün Fiyatı:");
             urun.Fiyat = Convert.ToDouble(Console.ReadLine());
@@ -87,6 +82,55 @@ namespace _15_Class_4_OtomatMakinesi
             urun.Stok = Convert.ToInt32(Console.ReadLine());
 
             urunler.Add(urun);
+        }
+
+        public static void UrunSil(List<Urun> urunler)
+        {
+            Listele(urunler);
+
+            Console.WriteLine("Silinecek Ürün No:");
+            int urunNo = Convert.ToInt32(Console.ReadLine());
+
+            Urun silinecekUrun = urunler.Where(i => i.No == urunNo).FirstOrDefault();
+
+            if (silinecekUrun == null)
+            {
+                Console.WriteLine("Hatalı Ürün Numarası Girişi!");
+            }
+            else
+            {
+                urunler.Remove(silinecekUrun);
+                Console.WriteLine("Ürün Başarıyla Silindi.");
+            }
+
+        }
+
+        public static void UrunGuncelle(List<Urun> urunler) 
+        {
+            Listele(urunler);
+
+            Console.WriteLine("Güncelenecek Ürün No:");
+            int urunNo = Convert.ToInt32(Console.ReadLine());
+
+            Urun guncellenecekUrun = urunler.Where(i => i.No == urunNo).FirstOrDefault();
+
+            if (guncellenecekUrun == null)
+            {
+                Console.WriteLine("Hatalı Ürün Numarası Girişi!");
+            }
+            else
+            {
+                Console.WriteLine("Ürün Adı:");
+                guncellenecekUrun.Ad = Console.ReadLine();
+
+                Console.WriteLine("Ürün Fiyatı:");
+                guncellenecekUrun.Fiyat = Convert.ToDouble(Console.ReadLine());
+
+                Console.WriteLine("Ürün Stok:");
+                guncellenecekUrun.Stok = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Ürün Başarıyla Güncellendi.");
+            }
         }
     }
 }

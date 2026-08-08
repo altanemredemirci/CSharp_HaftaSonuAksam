@@ -19,36 +19,36 @@
         //default olarak private tanımlanır.
         internal static void DiziDoldur()
         {
-            //Console.WriteLine("Başlangıç:");
-            //int basla = Convert.ToInt32(Console.ReadLine());
-            //Console.WriteLine("Bitiş:");
-            //int bitis = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Başlangıç:");
+            int basla = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Bitiş:");
+            int bitis = Convert.ToInt32(Console.ReadLine());
 
-            //Console.WriteLine("Adet:");
-            //int adet = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Adet:");
+            int adet = Convert.ToInt32(Console.ReadLine());
 
-            //int[] sayilar = new int[adet];
+            int[] sayilar = new int[adet];
 
-            //Random r = new Random();
+            Random r = new Random();
 
-            //int i = 0;
-            //while(i<adet)
-            //{
-            //    int sayi = r.Next(basla, bitis);
+            int i = 0;
+            while (i < adet)
+            {
+                int sayi = r.Next(basla, bitis);
 
-            //    if (!sayilar.Contains(sayi))
-            //    {
-            //        sayilar[i] = sayi;
-            //        i++;
-            //    }
-                
-            //}
+                if (!sayilar.Contains(sayi)) //if(sayilar.Contains(sayi)==false)
+                {
+                    sayilar[i] = sayi;
+                    i++;
+                }
 
-            //foreach (int item in sayilar)
-            //{
-            //    Console.WriteLine(item);
-            //}
-            //Console.WriteLine("Adet:"+sayilar.Count());
+            }
+
+            foreach (int item in sayilar)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("Adet:" + sayilar.Count());
 
         }
 
