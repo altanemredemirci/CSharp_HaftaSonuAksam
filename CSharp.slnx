@@ -31,4 +31,8 @@
   <Project Path="15_Class_2/15_Class_2.csproj" Id="9980327e-394c-48a1-81af-7410a3b40ed1" />
   <Project Path="15_Class_3/15_Class_3.csproj" Id="f500b82c-5942-457d-87a6-1397cc9e24af" />
   <Project Path="15_Class_4_OtomatMakinesi/15_Class_4_OtomatMakinesi.csproj" Id="02e7bcc6-5195-4877-ad32-1d5553149203" />
+  <Project Path="15_Class_5_Constructor_1/15_Class_5_Constructor_1.csproj" Id="a3a632bc-9da3-4a15-971e-dc9afc7d28a4" />
+  <Project Path="15_Class_5_Kutuphane/15_Class_5_Kutuphane.csproj" Id="086db36c-aa01-4e2f-9010-b7ca851bf0c0" />
+  <Project Path="15_Class_6_Enum_1/15_Class_6_Enum_1.csproj" Id="de811335-9901-4d84-984b-8e5c48acd079" />
+  <Project Path="15_Class_6_Enum_2/15_Class_6_Enum_2.csproj" Id="e6243f75-944a-4f71-b794-2662bfc1ccfa" />
 </Solution>

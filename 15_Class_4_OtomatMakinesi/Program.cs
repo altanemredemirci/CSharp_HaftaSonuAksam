@@ -31,6 +31,7 @@
             urunler.Add(urun3);
             #endregion
 
+
             while (true)
             {
                 Console.WriteLine("***** OTOMAT MAKİNESİ *****");
