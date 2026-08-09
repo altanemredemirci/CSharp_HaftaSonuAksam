@@ -35,4 +35,9 @@
   <Project Path="15_Class_5_Kutuphane/15_Class_5_Kutuphane.csproj" Id="086db36c-aa01-4e2f-9010-b7ca851bf0c0" />
   <Project Path="15_Class_6_Enum_1/15_Class_6_Enum_1.csproj" Id="de811335-9901-4d84-984b-8e5c48acd079" />
   <Project Path="15_Class_6_Enum_2/15_Class_6_Enum_2.csproj" Id="e6243f75-944a-4f71-b794-2662bfc1ccfa" />
+  <Project Path="15_Class_7_Partial/15_Class_7_Partial.csproj" Id="0c4aa701-67d9-409e-bb68-5e08605ace2e" />
+  <Project Path="15_Class_8_This/15_Class_8_This.csproj" Id="83ead991-8eda-461c-9a3b-3ee6b62cab61" />
+  <Project Path="15_Class_9_RestaurantOtomasyonu/15_Class_9_RestaurantOtomasyonu.csproj" Id="4086e890-b467-48ee-b8c3-54613de26c40" />
+  <Project Path="16_OOP_1/16_OOP_1.csproj" Id="2fb5f432-4f41-4182-8729-84e37092449e" />
+  <Project Path="16_OOP_2_Encapsulation_1/16_OOP_2_Encapsulation_1.csproj" Id="f8e5c8ae-2dd1-4bf1-b90c-10b95f5471f9" />
 </Solution>

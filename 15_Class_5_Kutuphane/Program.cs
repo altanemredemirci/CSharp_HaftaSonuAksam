@@ -59,7 +59,107 @@
             Üye ekleme / listeleme: Benzer şekilde üyeleri yönet.
 
             Ödünç verme: Kitap müsaitse üyeye ata, durumu “ödünçte” yap.
-                         */
+            */
+
+            //Kitap kitap = new Kitap()
+            //{
+            //    ISBN = "1",
+            //    Ad = "Damga",
+            //    Yazar = "Reşat Nuri Gültekin",
+            //    Durum = true
+            //};
+
+            //Uye uye = new Uye();
+            //uye.UyeNo = 1;
+            //uye.AdSoyad = "Altan Emre";
+            //uye.AldigiKitaplar.Add(kitap);
+
+
+            Kitap kitap = new Kitap()
+            {
+                ISBN = "1",
+                Ad = "Damga",
+                Yazar = "Reşat Nuri Gültekin",
+                Durum = true
+            };
+
+            Kitap kitap2= new Kitap()
+            {
+                ISBN = "2",
+                Ad = "Son Ocak",
+                Yazar = "Ömer Seyfettin",
+                Durum = true
+            };
+
+            Kitap kitap3 = new Kitap()
+            {
+                ISBN = "3",
+                Ad = "Diyet",
+                Yazar = "Ömer Seyfettin",
+                Durum = true
+            };
+
+            Kutuphane.Kitaplar.Add(kitap);
+            Kutuphane.Kitaplar.Add(kitap2);
+            Kutuphane.Kitaplar.Add(kitap3);
+
+
+            while (true)
+            {
+                Console.WriteLine("1-Kitap Ekle\n2-Kitap Sil\n3-Kitap Listele\n4-Kitap Ara\n5-Ödünç Ver\n6-Ödünç Listesi\n7-Üye Ekle\n8-Üye Listele\n0-Çıkış");
+                Console.WriteLine("Seçiminiz:");
+                int secim = Convert.ToInt32(Console.ReadLine());
+
+                if (secim == 1) 
+                {
+                    Kitap.Ekle(Kutuphane.Kitaplar);
+                }
+                else if (secim == 2) 
+                {
+                    bool cevap = Kitap.Sil(Kutuphane.Kitaplar);
+                    if (cevap)
+                    {
+                        Console.WriteLine("Silme işlemi başarılı");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Silme işlemi başarısız");
+                    }
+                }
+                else if (secim == 3) 
+                {
+                    Kitap.Listele(Kutuphane.Kitaplar);
+                }
+                else if (secim == 4) 
+                {
+                    Kitap.KitapAra(Kutuphane.Kitaplar);
+                }
+                else if (secim == 5) 
+                {
+                    Kutuphane.OduncVer();
+                }
+                else if (secim == 6) 
+                {
+                    Kutuphane.OduncListesi();
+                }
+                else if (secim == 7) 
+                {
+                    Uye.Ekle(Kutuphane.Uyeler);
+                }
+                else if (secim == 8) 
+                {
+                    Uye.Listele(Kutuphane.Uyeler);
+                }
+                else if (secim == 0) 
+                {
+                    Console.WriteLine("Yine Bekleriz..");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Hatalı Tuşlama!");
+                }
+            }
         }
     }
 }
