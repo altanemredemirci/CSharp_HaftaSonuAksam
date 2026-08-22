@@ -45,4 +45,8 @@
   <Project Path="16_OOP_3_Inheritance_2/16_OOP_3_Inheritance_2.csproj" Id="4cdfc424-fee0-406e-b0d7-f348eb3f0efe" />
   <Project Path="16_OOP_3_Inheritance_3/16_OOP_3_Inheritance_3.csproj" Id="68e87f6f-943f-4c8b-bb15-2e95c305bb93" />
   <Project Path="16_OOP_3_Inheritance_4/16_OOP_3_Inheritance_4.csproj" Id="c678c506-78c6-45e3-a5dc-e5981b74e355" />
+  <Project Path="16_OOP_3_Inheritance_5/16_OOP_3_Inheritance_5.csproj" Id="97fb9bcc-ed69-4d82-8097-a06c535248d2" />
+  <Project Path="16_OOP_3_Inheritance_6/16_OOP_3_Inheritance_6.csproj" Id="dcbe059d-cb4c-4a73-85a3-cdecc8ab2ff2" />
+  <Project Path="16_OOP_3_Inheritance_7_ManavOtomasyonu/16_OOP_3_Inheritance_7_ManavOtomasyonu.csproj" Id="d1618590-3612-4d5c-862a-041b169db65f" />
+  <Project Path="16_OOP_4_Polymorphism_1/16_OOP_4_Polymorphism_1.csproj" Id="4ed49d53-cbe3-4aab-b435-9978cc10d985" />
 </Solution>
