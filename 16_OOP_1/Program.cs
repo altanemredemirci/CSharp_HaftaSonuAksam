@@ -20,9 +20,8 @@ namespace _16_OOP_1
              */
 
             Insan insan = new Insan();
-            Console.WriteLine(insan.Ad);
-
-            Console.WriteLine(insan.);
+            //Console.WriteLine(insan.Ad);
+            Console.ReadLine();
 
             insan.Yaz();
 

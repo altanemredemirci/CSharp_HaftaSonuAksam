@@ -62,6 +62,5 @@ namespace _15_Class_9_RestaurantOtomasyonu
 
             Console.WriteLine($"{secilenMenu.Ad} menüsüne {secilenYemek.Ad} yemeği silindi.");
         }
-
     }
 }

@@ -12,12 +12,23 @@
              protected : Kendi classı ve miras alınan class tarafından erişilebilir.
              */
 
-            Insan insan = new Insan();
-            Console.WriteLine(insan.Ad);
+            //Insan insan = new Insan();
+            //Console.WriteLine(insan.Ad);
+            //insan.Soyad = "Demirci";          
 
-            Console.WriteLine(insan.);
+            //insan.Yaz();
 
-            insan.Yaz();
+
+            Vatandas vatandas = new Vatandas();
+            vatandas.Ad = "Altan Emre";
+            vatandas.Soyad = "Demirci";
+
+            //Aşağıda set metot çalışır.
+            vatandas._TC = "12345678901"; //value
+
+            //Aşağıda get metot çalışır.
+            Console.WriteLine(vatandas._TC);
+
         }
     }
 }

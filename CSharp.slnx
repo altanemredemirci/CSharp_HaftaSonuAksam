@@ -40,4 +40,9 @@
   <Project Path="15_Class_9_RestaurantOtomasyonu/15_Class_9_RestaurantOtomasyonu.csproj" Id="4086e890-b467-48ee-b8c3-54613de26c40" />
   <Project Path="16_OOP_1/16_OOP_1.csproj" Id="2fb5f432-4f41-4182-8729-84e37092449e" />
   <Project Path="16_OOP_2_Encapsulation_1/16_OOP_2_Encapsulation_1.csproj" Id="f8e5c8ae-2dd1-4bf1-b90c-10b95f5471f9" />
+  <Project Path="16_OOP_2_Encapsulation_2/16_OOP_2_Encapsulation_2.csproj" Id="755f4840-4ed2-49f0-b16f-73ac42c496a0" />
+  <Project Path="16_OOP_3_Inheritance_1/16_OOP_3_Inheritance_1.csproj" Id="2ca92156-306e-41bf-81cc-a5563c0bcbe5" />
+  <Project Path="16_OOP_3_Inheritance_2/16_OOP_3_Inheritance_2.csproj" Id="4cdfc424-fee0-406e-b0d7-f348eb3f0efe" />
+  <Project Path="16_OOP_3_Inheritance_3/16_OOP_3_Inheritance_3.csproj" Id="68e87f6f-943f-4c8b-bb15-2e95c305bb93" />
+  <Project Path="16_OOP_3_Inheritance_4/16_OOP_3_Inheritance_4.csproj" Id="c678c506-78c6-45e3-a5dc-e5981b74e355" />
 </Solution>
