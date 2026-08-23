@@ -49,4 +49,12 @@
   <Project Path="16_OOP_3_Inheritance_6/16_OOP_3_Inheritance_6.csproj" Id="dcbe059d-cb4c-4a73-85a3-cdecc8ab2ff2" />
   <Project Path="16_OOP_3_Inheritance_7_ManavOtomasyonu/16_OOP_3_Inheritance_7_ManavOtomasyonu.csproj" Id="d1618590-3612-4d5c-862a-041b169db65f" />
   <Project Path="16_OOP_4_Polymorphism_1/16_OOP_4_Polymorphism_1.csproj" Id="4ed49d53-cbe3-4aab-b435-9978cc10d985" />
+  <Project Path="16_OOP_4_Polymorphism_2/16_OOP_4_Polymorphism_2.csproj" Id="a33d1509-c3f7-4578-b424-6eb1c2d9a13f" />
+  <Project Path="16_OOP_4_Polymorphism_3/16_OOP_4_Polymorphism_3.csproj" Id="49279dd1-36f5-4f26-84f5-f969db2a40ad" />
+  <Project Path="16_OOP_5_Abstract_1/16_OOP_5_Abstract_1.csproj" Id="3518ce88-20aa-45d6-849a-b5590fe6c680" />
+  <Project Path="16_OOP_5_Abstract_2/16_OOP_5_Abstract_2.csproj" Id="dc7666f2-7a2d-45b8-9b9d-b28d7313b01f" />
+  <Project Path="16_OOP_5_Abstract_3/16_OOP_5_Abstract_3.csproj" Id="9b575118-fbaa-4803-9235-4e2194824d35" />
+  <Project Path="16_OOP_6_Interface_1/16_OOP_6_Interface_1.csproj" Id="616d09b4-2c39-41f1-bdf2-bd19d7147b1f" />
+  <Project Path="16_OOP_6_Interface_2/16_OOP_6_Interface_2.csproj" Id="02b4e16e-360a-4861-97d6-d381e7047e7a" />
+  <Project Path="16_OOP_6_Interface_3/16_OOP_6_Interface_3.csproj" Id="5bfc378d-3ca6-47e9-bfee-4bf9b263b91e" />
 </Solution>
