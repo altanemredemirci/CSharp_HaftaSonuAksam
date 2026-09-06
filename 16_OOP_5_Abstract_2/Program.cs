@@ -27,7 +27,7 @@
     {
         public override void Detay()
         {
-            throw new NotImplementedException();
+            Console.WriteLine();
         }
 
         public override void Guncelle()

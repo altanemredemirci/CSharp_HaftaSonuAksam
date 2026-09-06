@@ -57,4 +57,10 @@
   <Project Path="16_OOP_6_Interface_1/16_OOP_6_Interface_1.csproj" Id="616d09b4-2c39-41f1-bdf2-bd19d7147b1f" />
   <Project Path="16_OOP_6_Interface_2/16_OOP_6_Interface_2.csproj" Id="02b4e16e-360a-4861-97d6-d381e7047e7a" />
   <Project Path="16_OOP_6_Interface_3/16_OOP_6_Interface_3.csproj" Id="5bfc378d-3ca6-47e9-bfee-4bf9b263b91e" />
+  <Project Path="16_OOP_7_Proje/16_OOP_7_Proje.csproj" Id="c2f81c02-80d2-4e50-81a4-74838aaf5c9e" />
+  <Project Path="17_WinForm_1/17_WinForm_1.csproj" Id="c129665e-b247-4e43-80c9-48d3d3717e7e" />
+  <Project Path="17_WinForm_2/17_WinForm_2.csproj" Id="bef0bd80-f942-4776-8f6d-98c78d2d16f4" />
+  <Project Path="18_Ado.Net_2_ConnectionStrBuild/18_Ado.Net_2_ConnectionStrBuild.csproj" Id="761673ff-5b5b-42c5-9699-c7553baf827f" />
+  <Project Path="18_Ado.Net_3_Baglanti_Durum_Yonetimi/18_Ado.Net_3_Baglanti_Durum_Yonetimi.csproj" Id="3c85cf6c-84e0-42aa-9736-15c87c038adf" />
+  <Project Path="18_Ado.Net_SqlConnection/18_Ado.Net_1_SqlConnection.csproj" Id="a5c98c46-6d96-4076-8d47-a80d1f26e571" />
 </Solution>

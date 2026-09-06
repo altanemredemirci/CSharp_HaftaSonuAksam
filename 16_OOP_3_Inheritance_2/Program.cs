@@ -26,9 +26,6 @@
             List<Ogrenci> ogrenciler = new List<Ogrenci>();
             ogrenciler.Add(ilkokul);
             ogrenciler.Add(ortaokul);
-
-
-
         }
     }
 

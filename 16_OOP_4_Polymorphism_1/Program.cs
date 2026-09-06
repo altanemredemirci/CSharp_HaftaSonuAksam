@@ -36,6 +36,7 @@
         */
             //Aynı isimde farklı parametre sayısı veya parametre veri tipi ile tanımlanarak overload edilen metotlara Statik Polymorphism denir. 
 
+            Toplama(); //Statik Polymorphism
 
             Ortaokul ortaokul = new Ortaokul();
             ortaokul.Kaydet();

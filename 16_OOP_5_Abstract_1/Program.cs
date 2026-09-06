@@ -22,6 +22,7 @@
 
             //Personel sınıfı diğer sınıflara kaynak olması ve ortak özellikleri tutması için yazılan bir sınıftır.
             //Personel personel = new Personel();
+                     
         }
     }
 
@@ -29,7 +30,7 @@
     {
         public string Ad { get; set; }
         public string Soyad { get; set; }
-        public abstract string TC { get; set; }
+        public string TC { get; set; }
 
         abstract public void Kayit();
         abstract public void Guncelle();
