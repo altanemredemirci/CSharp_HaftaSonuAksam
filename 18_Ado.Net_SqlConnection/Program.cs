@@ -8,7 +8,7 @@ namespace _18_Ado.Net_1_SqlConnection
         {
             //ORM - Object Relation Mapping 
             //ORM araçları yazılım dili ile veritabanın iletişim kurmasını ve birlikte çalışmasını sağlar.
-            // C# & SQL
+            // C# & MSSQL
             /*
              *Ado.Net           47ms
              *Dapper            49ms

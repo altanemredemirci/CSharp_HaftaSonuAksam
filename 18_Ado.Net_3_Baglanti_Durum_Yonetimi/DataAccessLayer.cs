@@ -9,7 +9,7 @@ namespace _18_Ado.Net_3_Baglanti_Durum_Yonetimi
     {
         SqlConnection connect;
 
-        public DataAccessLayer()
+        public DataAccessLayer()  //Constructor Metot
         {
             connect = new SqlConnection();
             connect.ConnectionString = "Data Source=DESKTOP-58CMK8T\\SQLEXPRESS; Initial Catalog=OkulDB; Integrated Security=true; TrustServerCertificate=true";
