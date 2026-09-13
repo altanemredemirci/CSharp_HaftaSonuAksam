@@ -65,4 +65,5 @@
   <Project Path="18_Ado.Net_4_ExecuteNonQuery/18_Ado.Net_4_ExecuteNonQuery.csproj" Id="8b755327-3d74-41b6-a357-f63a8e6df8d4" />
   <Project Path="18_Ado.Net_SqlConnection/18_Ado.Net_1_SqlConnection.csproj" Id="a5c98c46-6d96-4076-8d47-a80d1f26e571" />
   <Project Path="19_NKatmanliMimari/19_NKatmanliMimari.csproj" Id="92a5ea3c-8d32-4cef-a2cf-7e686a46e190" />
+  <Project Path="20_PersonelYonetimSistemi/20_PersonelYonetimSistemi.csproj" Id="00ba42c4-6ccd-4b20-a812-8f9e9ebd052c" />
 </Solution>
