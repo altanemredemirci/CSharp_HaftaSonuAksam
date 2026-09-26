@@ -20,7 +20,7 @@ namespace _20_PersonelYonetimSistemi
 
         public void BaglantiAyarla()
         {
-            if(connect.State == System.Data.ConnectionState.Closed)
+            if (connect.State == System.Data.ConnectionState.Closed)
             {
                 connect.Open();
             }
@@ -47,7 +47,7 @@ namespace _20_PersonelYonetimSistemi
             }
             catch (Exception)
             {
-                
+
             }
             finally
             {
@@ -68,7 +68,7 @@ namespace _20_PersonelYonetimSistemi
             }
             catch (Exception)
             {
-                
+
             }
             finally
             {
@@ -78,7 +78,7 @@ namespace _20_PersonelYonetimSistemi
             return Sonuc;
         }
 
-        internal SqlDataReader PersonelTumListe()
+        public SqlDataReader PersonelTumListe()
         {
             try
             {
@@ -94,6 +94,62 @@ namespace _20_PersonelYonetimSistemi
             }
 
             return reader;
+        }
+
+        public SqlDataReader PersonelKayitGetir(int Id)
+        {
+
+            command = new SqlCommand($"Select * from Personel where Id={Id}", connect);
+            BaglantiAyarla();
+            reader = command.ExecuteReader();
+
+            return reader;
+        }
+
+        public int PersonelKayitGuncelle(Personel P)
+        {
+            try
+            {
+                command = new SqlCommand($"Update Personel set Isim='{P.Isim}',Soyisim='{P.Soyisim}',EmailAdres='{P.EmailAdres}',Telefon='{P.Telefon}' where Id={P.Id}", connect);
+
+                BaglantiAyarla();
+                Sonuc = command.ExecuteNonQuery(); //Insert,Update,Delete
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                BaglantiAyarla();
+            }
+
+            return Sonuc;
+        }
+
+        public int PersonelSil(int Id)
+        {
+            try
+            {
+                command = new SqlCommand($"Delete from Personel where Id={Id}", connect);
+
+                BaglantiAyarla();
+
+                Sonuc = command.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                BaglantiAyarla();
+            }
+
+            return Sonuc;
         }
     }
 }

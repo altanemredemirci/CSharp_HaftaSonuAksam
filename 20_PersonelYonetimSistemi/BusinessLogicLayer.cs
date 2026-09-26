@@ -12,18 +12,20 @@ namespace _20_PersonelYonetimSistemi
 
         public BusinessLogicLayer()
         {
-            DAL = new DataAccessLayer();
+            DAL = new DataAccessLayer(); //DataAccessLayer sınıfından bir nesne türettik(constructor metot çalıştı) ve DAL değişkenine atadık
         }
 
         internal int SistemGirisKontrol(string kullaniciAdi, string sifre)
         {
-            if(!string.IsNullOrEmpty(kullaniciAdi) && !string.IsNullOrEmpty(sifre))
+            if (!string.IsNullOrEmpty(kullaniciAdi) && !string.IsNullOrEmpty(sifre))
             {
-                return DAL.SistemGirisKontrol(new SistemKullanici()
-                {
-                    KullaniciAdi = kullaniciAdi,
-                    Sifre = sifre
-                });
+
+                SistemKullanici sistem = new SistemKullanici();
+
+                sistem.KullaniciAdi = kullaniciAdi;
+                sistem.Sifre = sifre;
+
+                return DAL.SistemGirisKontrol(sistem);
             }
             else
             {
@@ -31,9 +33,9 @@ namespace _20_PersonelYonetimSistemi
             }
         }
 
-        internal int PersonelEkle(string isim, string soyisim,string email,string telefon)
+        internal int PersonelEkle(string isim, string soyisim, string email, string telefon)
         {
-            if(!string.IsNullOrEmpty(isim) && !string.IsNullOrEmpty(soyisim) && !string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(telefon))
+            if (!string.IsNullOrEmpty(isim) && !string.IsNullOrEmpty(soyisim) && !string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(telefon))
             {
                 Personel P = new Personel();
                 P.Isim = isim;
@@ -73,5 +75,54 @@ namespace _20_PersonelYonetimSistemi
             return Personellerim;
         }
 
+        internal Personel PersonelKayitGetir(int Id)
+        {
+            Personel personel = new Personel();
+
+            try
+            {
+                reader = DAL.PersonelKayitGetir(Id);
+
+                while (reader.Read())
+                {
+                    personel.Id = reader.GetInt32(0);
+                    personel.Isim = reader.GetString(1);
+                    personel.Soyisim = reader.GetString(2);
+                    personel.EmailAdres = reader.GetString(3);
+                    personel.Telefon = reader.GetString(4);
+                }
+
+                reader.Close();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                DAL.BaglantiAyarla();
+            }
+
+            return personel;
+        }
+
+        public int PersonelKayitGuncelle(int Id,string Isim,string Soyisim,string Email,string Telefon)
+        {
+            Personel P = new Personel()
+            {
+                Id = Id,
+                Isim = Isim,
+                Soyisim = Soyisim,
+                EmailAdres = Email,
+                Telefon = Telefon
+            };
+
+            return DAL.PersonelKayitGuncelle(P);
+        }
+
+        public int PersonelSil(int Id)
+        {
+            return DAL.PersonelSil(Id);
+        }
     }
 }

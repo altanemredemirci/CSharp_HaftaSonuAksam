@@ -40,6 +40,7 @@
             label1 = new Label();
             lst_personellerim = new ListBox();
             groupBox2 = new GroupBox();
+            btn_Sil = new Button();
             btn_Guncelle = new Button();
             txt_gtelefon = new TextBox();
             label5 = new Label();
@@ -49,6 +50,9 @@
             label7 = new Label();
             txt_gad = new TextBox();
             label8 = new Label();
+            btn_Test = new Button();
+            btn_jsonKaydet = new Button();
+            btn_jsonAl = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -150,11 +154,13 @@
             lst_personellerim.FormattingEnabled = true;
             lst_personellerim.Location = new Point(291, 22);
             lst_personellerim.Name = "lst_personellerim";
-            lst_personellerim.Size = new Size(198, 169);
+            lst_personellerim.Size = new Size(363, 409);
             lst_personellerim.TabIndex = 1;
+            lst_personellerim.DoubleClick += lst_personellerim_DoubleClick;
             // 
             // groupBox2
             // 
+            groupBox2.Controls.Add(btn_Sil);
             groupBox2.Controls.Add(btn_Guncelle);
             groupBox2.Controls.Add(txt_gtelefon);
             groupBox2.Controls.Add(label5);
@@ -164,21 +170,32 @@
             groupBox2.Controls.Add(label7);
             groupBox2.Controls.Add(txt_gad);
             groupBox2.Controls.Add(label8);
-            groupBox2.Location = new Point(505, 12);
+            groupBox2.Location = new Point(12, 237);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(266, 201);
+            groupBox2.Size = new Size(266, 194);
             groupBox2.TabIndex = 9;
             groupBox2.TabStop = false;
             groupBox2.Text = "PERSONEL GÜNCELLEME PANELİ";
             // 
+            // btn_Sil
+            // 
+            btn_Sil.Location = new Point(140, 154);
+            btn_Sil.Name = "btn_Sil";
+            btn_Sil.Size = new Size(109, 23);
+            btn_Sil.TabIndex = 9;
+            btn_Sil.Text = "Personel Sil";
+            btn_Sil.UseVisualStyleBackColor = true;
+            btn_Sil.Click += btn_Sil_Click;
+            // 
             // btn_Guncelle
             // 
-            btn_Guncelle.Location = new Point(74, 154);
+            btn_Guncelle.Location = new Point(15, 154);
             btn_Guncelle.Name = "btn_Guncelle";
-            btn_Guncelle.Size = new Size(175, 23);
+            btn_Guncelle.Size = new Size(109, 23);
             btn_Guncelle.TabIndex = 8;
             btn_Guncelle.Text = "Personel Güncelle";
             btn_Guncelle.UseVisualStyleBackColor = true;
+            btn_Guncelle.Click += btn_Guncelle_Click;
             // 
             // txt_gtelefon
             // 
@@ -244,11 +261,44 @@
             label8.TabIndex = 0;
             label8.Text = "AD:";
             // 
+            // btn_Test
+            // 
+            btn_Test.Location = new Point(12, 444);
+            btn_Test.Name = "btn_Test";
+            btn_Test.Size = new Size(266, 23);
+            btn_Test.TabIndex = 10;
+            btn_Test.Text = "Test Kayıtlar Ekle";
+            btn_Test.UseVisualStyleBackColor = true;
+            btn_Test.Click += btn_Test_Click;
+            // 
+            // btn_jsonKaydet
+            // 
+            btn_jsonKaydet.Location = new Point(291, 444);
+            btn_jsonKaydet.Name = "btn_jsonKaydet";
+            btn_jsonKaydet.Size = new Size(176, 23);
+            btn_jsonKaydet.TabIndex = 11;
+            btn_jsonKaydet.Text = "Json Kaydet";
+            btn_jsonKaydet.UseVisualStyleBackColor = true;
+            btn_jsonKaydet.Click += btn_jsonKaydet_Click;
+            // 
+            // btn_jsonAl
+            // 
+            btn_jsonAl.Location = new Point(482, 444);
+            btn_jsonAl.Name = "btn_jsonAl";
+            btn_jsonAl.Size = new Size(172, 23);
+            btn_jsonAl.TabIndex = 12;
+            btn_jsonAl.Text = "Json Al";
+            btn_jsonAl.UseVisualStyleBackColor = true;
+            btn_jsonAl.Click += btn_jsonAl_Click;
+            // 
             // PersonelEkrani
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(669, 507);
+            Controls.Add(btn_jsonAl);
+            Controls.Add(btn_jsonKaydet);
+            Controls.Add(btn_Test);
             Controls.Add(groupBox2);
             Controls.Add(lst_personellerim);
             Controls.Add(groupBox1);
@@ -286,5 +336,9 @@
         private Label label7;
         private TextBox txt_gad;
         private Label label8;
+        private Button btn_Sil;
+        private Button btn_Test;
+        private Button btn_jsonKaydet;
+        private Button btn_jsonAl;
     }
 }

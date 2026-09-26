@@ -14,7 +14,7 @@ namespace _20_PersonelYonetimSistemi
 
         public override string ToString()
         {
-            return Isim + " " + Soyisim;
+            return Isim + " " + Soyisim +" "+ EmailAdres + " "+Telefon;
         }
     }
 }
