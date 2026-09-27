@@ -42,6 +42,7 @@
             btn_getData.TabIndex = 0;
             btn_getData.Text = "Get Data";
             btn_getData.UseVisualStyleBackColor = true;
+            btn_getData.Click += btn_getData_Click;
             // 
             // dt_gridView
             // 
