@@ -46,7 +46,7 @@
     class IK:Personel
     {
         public int PersonelSayisi { get; set; }
-        public override string TC { get ; set; }
+        //public override string TC { get ; set; }
 
         public override void Guncelle()
         {
